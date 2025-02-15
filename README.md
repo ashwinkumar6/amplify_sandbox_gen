@@ -3,7 +3,6 @@
 This script automates the creation and deletion of [Amplify gen2 sandboxes](https://docs.amplify.aws/react/how-amplify-works/concepts/) for development and testing purposes. It ensures each sandbox is set up correctly with its required resources and supports running multiple iterations in parallel.
 
 ## Features
-
 - **Sandbox Creation**:
   - Automatically sets up directories and copies templates for sandbox creation.
   - Runs sandbox creation commands (`npx ampx sandbox`) in the background to allow parallel execution.
